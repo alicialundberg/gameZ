@@ -1,9 +1,8 @@
-import random
 import sys
 import time
 
-from zombiegame.weapon import randomweapon
-from zombiegame.zombie import zombieattack
+from weapon import randomweapon
+from zombie import zombieattack
 
 
 def play():
