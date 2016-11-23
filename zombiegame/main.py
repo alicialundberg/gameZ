@@ -94,6 +94,6 @@ def play():
                 print("Invalid choice, try again! You can choose between y and n")
                 attack()
         attack()
-    
+
     # code is under construction, more will be added!
 play()
