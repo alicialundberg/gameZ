@@ -1,7 +1,7 @@
 import random
 from randomnumber import numbers
 
-# "Guess the right number" -game.
+# "Pick the the right number" -game.
 
 def playerpick():
     picknumber = str(input("Pick a number between 1 - 10: "))
@@ -14,7 +14,7 @@ def playerpick():
         print("Congratulations!)
 
     else:
-        print("Sorry, but your number was not one of the generated numbers.")
+        print("Sorry, but your number was not the generated number.")
         time.sleep(1)
         play = input("Want to pick a new number? (Y/N)")
         if play == "Y":
@@ -22,10 +22,11 @@ def playerpick():
             playerpick()
         else:
             print("Game Over.")
-            sys.exit()
+            sys.exit(
 
+playerpick()
 
-# Another "Guess the right number" -game
+# Another "Pick the right number" -game
 def generator():
     randomnumber = str(input("Pick a number between 1 - 5 "))
     print(randomnumber)
